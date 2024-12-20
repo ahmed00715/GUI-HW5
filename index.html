@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrabble Game</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Scrabble Game</h1>
+        
+        <div class="game-controls">
+            <button id="newGameBtn">New Game</button>
+            <button id="submitWordBtn">Submit Word</button>
+            <div class="score-display">
+                Score: <span id="score">0</span>
+            </div>
+        </div>
+
+        <div id="board" class="scrabble-board">
+        </div>
+
+        <div id="rack" class="tile-rack">
+        </div>
+
+        <div id="message" class="message"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
